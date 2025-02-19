@@ -16,8 +16,8 @@ A Streamlit application that provides chat functionality using GigaChat API and 
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/MasterPo696/MyFaveBot
+cd MyFaveBot
 ```
 
 
