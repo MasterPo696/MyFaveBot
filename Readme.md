@@ -1,13 +1,16 @@
 # 🤖 AI Chat & Image Generation App
 
-An interactive Streamlit application that combines GigaChat for conversation and StarrAI for image generation.
+A Streamlit application that provides chat functionality using GigaChat API and image generation with StarrAI. Features Google OAuth authentication and SQLite database for user management.
 
 ## ✨ Features
 
-- 💬 Real-time chat interface with GigaChat
-- 🎨 Image generation using StarrAI
-- 🔄 Seamless switching between chat and image generation
-- 📱 Responsive design
+- 💬 Chat interface powered by GigaChat API
+- 🎨 Image generation capabilities via StarrAI
+- 🔐 User authentication with Google OAuth 
+- 💾 Local SQLite database for user data
+- 🔄 5 free requests for non-authenticated users
+- 📱 Clean and responsive UI
+- 🌐 Support for Russian and English prompts
 
 ## 🚀 Installation
 
