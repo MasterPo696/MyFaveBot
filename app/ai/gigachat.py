@@ -50,12 +50,9 @@ class GigaChatAPI:
         response = requests.post(
             url=self.url,
             headers=headers,
-            json=payload,  # json вместо data
+            json=payload,
             verify=False
         )
-
-        print(f"Status Code: {response.status_code}")
-        print(f"Response Text: {response.text}")
 
         if response.status_code != 200:
             raise Exception(f"API request failed with status {response.status_code}: {response.text}")
@@ -67,4 +64,9 @@ class GigaChatAPI:
         except KeyError as e:
             raise Exception(f"Unexpected response format: {response.json()}") from e
 
-
+    def translate_prompt(self, prompt: str) -> str:
+        access_token = self.get_access_token()
+        prompt = f"Переведи на английский, не давай никаких пояснений: {prompt}"
+        response = self.send_prompt(prompt, access_token)
+        print(response)
+        return response

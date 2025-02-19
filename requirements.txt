@@ -1,2 +1,8 @@
 streamlit
 requests
+sqlalchemy
+flask-login
+bcrypt
+oauthlib
+pyOpenSSL
+google-auth-oauthlib>=0.4.6

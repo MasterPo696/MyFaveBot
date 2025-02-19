@@ -1,0 +1,12 @@
+2025-02-20 00:24:46,927 - app.utils.smart_logs - INFO - GigaChatAPI initialized
+2025-02-20 00:24:46,968 - app.utils.smart_logs - INFO - Requesting new access token
+2025-02-20 00:24:47,143 - app.utils.smart_logs - INFO - Access token obtained successfully
+2025-02-20 00:24:49,384 - app.utils.smart_logs - INFO - GigaChatAPI initialized
+2025-02-20 00:24:49,384 - app.utils.smart_logs - INFO - GigaChatAPI initialized
+2025-02-20 00:24:49,387 - app.utils.smart_logs - INFO - Sending prompt to GigaChat API
+2025-02-20 00:24:49,387 - app.utils.smart_logs - INFO - Sending prompt to GigaChat API
+2025-02-20 00:24:49,763 - app.utils.smart_logs - INFO - Successfully received response from GigaChat
+2025-02-20 00:24:49,763 - app.utils.smart_logs - INFO - Successfully received response from GigaChat
+2025-02-20 00:24:50,775 - app.utils.smart_logs - INFO - GigaChatAPI initialized
+2025-02-20 00:24:50,775 - app.utils.smart_logs - INFO - GigaChatAPI initialized
+2025-02-20 00:24:50,775 - app.utils.smart_logs - INFO - GigaChatAPI initialized
