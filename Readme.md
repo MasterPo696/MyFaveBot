@@ -57,7 +57,7 @@ streamlit run main.py
 ## 💡 Usage
 
 - Start chatting normally for text conversations
-- Type "нарисуй" followed by your description to generate images
+- Type "нарисуй" or "draw" followed by your description to generate images
 - The app will automatically detect whether to use chat or image generation
 
 ## 📝 License
